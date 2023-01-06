@@ -1,0 +1,124 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*Header and navigation styls*/
+.header{
+    background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 34px 200px;
+
+}
+.nav-titel{
+    font-size: 800;
+    font-size: 45px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+#primary-color{
+    color: #FD6E0A;
+}
+.btn-primary{
+    height: 64px;
+    border-radius: 5px;
+    background-color: #FD6E0A; 
+    color: white; 
+    font-size: 20px;
+    font-weight: 700;
+    border: 0;
+    padding: 18px 35px;
+}
+nav li{
+    list-style: none;
+    margin-left: 50px;
+}
+
+/*banner styls*/
+.banner{
+    display: flex;
+    align-items: center;
+    margin: 0px  30px 0px 200px;
+    padding: 150px 0;
+   
+}
+
+.banner-title{
+    font-Weight: 600;
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+.banner-sub-title{
+    font-weight: 700;
+    font-size: 85;
+}
+.banner-discription{
+    color: #757575;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.img{
+    Width:584px;
+    Height:650px;
+}
+.contact{
+   border-radius: 5px;
+   border-color: #FD6E0A; 
+   padding: 16px 20px;
+   color:#FD6E0A; 
+   background-color: white;
+   font-size: 20px;
+   font-weight: 700;
+  } 
+
+main{
+
+}
+    
+
+.about{
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 80%;
+    text-align: center;
+    padding: 130 150px;
+    background: rgba(255, 248, 243, 1);
+}
+.section-title{
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+    height: 48px;
+    
+}
+.discription{
+    color: rgba(117, 117, 117, 1);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;  
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.info-title{
+font-size: 16px;
+font-weight: 700;
+color: rgba(117, 117, 117, 1);
+}
+
+.info-discription{
+    font-size: 20px;
+    font-weight: 700;
+    color:rgb(21, 2, 2);
+    }
